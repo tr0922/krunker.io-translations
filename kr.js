@@ -332,7 +332,7 @@ settings.editing.progm.scale Charge Bar Scale 충전 막대 크기
 settings.editing.progm.shadow Charge Bar Shadow 충전 막대 그림자
 settings.editing.progmOffX Charge Bar X Offset 충전 막대 좌우 위치
 settings.editing.progmOffY Charge Bar Y Offset 충전 막대 상하 위치
-settings.editing.progmRot Charge Bar Rotation 충전  회전
+settings.editing.progmRot Charge Bar Rotation 충전 막대 회전
 settings.editing.saturation 그래픽 채도
 settings.editing.menuSaturation 인터페이스 채도
 settings.editing.hue 그래픽 색상
@@ -409,7 +409,7 @@ windows.loadout.color.chat 채팅창 이름 색상
 windows.loadout.color.hair 머리카락 색상
 windows.loadout.dye 염료
 windows.loadout.pet 펫
-windows.loadout.stat 상대 처치시 보여질 스탯
+windows.loadout.stat 상대 처치 시 보일 스탯
 windows.loadout.flag 국기
 windows.mods.drop 모드 파일을 여기에 드래그 또는 클릭
 windows.mods.paste 모드 URL 붙여넣기
@@ -501,7 +501,7 @@ windows.clans.join 클랜 가입
 windows.clans.login 하고 클랜을 만들고 가입하세요!
 windows.store.header 상점
 windows.store.spin {0} 스핀
-windows.store.agree KR을 구매하면 {0}이용약관에 동의하는 것으로 간주합니다.
+windows.store.agree KR을 구매하면 {0}이용약관에 동의하는 것으로 간주합니다
 windows.store.purchase KR 구매
 windows.store.voucher KR 바우처 코드 입력
 windows.store.voucherinfo 특정 스트리머와 이벤트를 통해서 KR 바우처 코드를 얻으세요!
@@ -606,7 +606,7 @@ server.config.fiRat 연사 속도
 server.config.reSpd 재장전 시간
 server.config.slidTime 슬라이딩 시간
 server.config.fixMov Fixed Movement
-server.config.slidSpd 슬라이드 속도
+server.config.slidSpd 슬라이딩 속도
 server.config.healthMlt HP 배수
 server.config.impulseMlt 무기 반동 배수
 server.config.nameTeam1 1팀 이름
@@ -621,7 +621,7 @@ server.config.t4Dmg 4팀 피해량 배수
 server.config.t5Dmg 5팀 피해량 배수
 server.config.selTeam 참가 시 팀 선택
 server.config.allowSpect 관전 중
-server.config.killRewards 킬 점수
+server.config.killRewards 처치 점수
 server.config.headshotOnly 헤드샷만 허용
 server.config.noSecondary 보조무기 비활성화
 server.config.noStreaks 연속 처치 비활성화
@@ -694,52 +694,52 @@ social.market.gift.amount 선물할
 social.market.fee.gift 수수료 없음
 social.market.gift KR 선물하기
 social.market.gift.msg 문자 남기기
-respawn.auto 자동 리스폰 {0} 후
+respawn.auto {0}초 후 자동 리스폰
 custom.host.ranked 랭크전 준비중 게임 만들기 불가
 funds.insufficient 자본 불충분
-funds.out KR이 부족한 것으로 .
+funds.out KR이 부족한 것으로 보입니다.
 custom.passcode.long 비밀번호가 너무 길음
-custom.passcode.input 참가를 위해 서버 비밀번호를 입력하세요
-custom.tryagain 다시 시도해 주십시오
-purchase.kr.success {0} KR을 계정에 추가하였습니다
-limited.purchase.ask [{0}] for {1} KR? [{0}]을 {1} KR로 구매하시겠습니까?
-limited.purchase.success {0}을 인벤토리에 추가하였습니다
-pretend.exit 나가려면 [{0}]을 다시 누르세요
-settings.loaded 세팅 로딩 완료
-settings.loaded.none 세팅 입력 존재하지 않음
+custom.passcode.input 참가를 위해 서버 비밀번호를 입력하세요.
+custom.tryagain 다시 시도해 주십시오.
+purchase.kr.success {0} KR을 계정에 추가하였습니다.
+limited.purchase.ask [{0}]을 {1} KR로 구매하시겠습니까?
+limited.purchase.success {0}을 인벤토리에 추가하였습니다.
+pretend.exit 나가려면 [{0}]을 다시 누르세요.
+settings.loaded 설정 로딩 완료
+settings.loaded.none 설정 입력 존재하지 않음
 account.login.required 로그인 필요
-account.banned.hack 해킹으로 밴을 당한 계정임.
-account.banned.appeal 밴에 이의제기를 하려면, 여기에 연락을 취하세요:
+account.banned.hack 이 계정은 핵 사용으로 차단되었습니다.
+account.banned.appeal 밴에 이의제기를 하려면, 여기에 연락을 취하세요.
 account.delete 계정의 완전삭제를 요청할 수 있고, 14일 내에 요청이 취소되지 않는다면 모든 연관정보가 영구적으로 삭제될 것입니다.
 account.delete.request 계정의 완전삭제를 요청하시겠습니까?
 account.delete.cancel 계정의 완전삭제 요청을 취소하시겠습니까?
 spin.free.available 무료 KR 받기!
 spin.free.claim 이 스핀은 한 시간마다 한 매치를 끝낸 후에 얻을 수 있습니다.
-spin.free.disable 이 팝업들은  세팅에서 차단할 수 있습니다.
-mod.reset.0 리스폰 후 영향을 줌.
+spin.free.disable 이 팝업들은 설정에서 차단할 수 있습니다.
+mod.reset.0 리스폰 후 적용됩니다.
 mod.reset.1 맵 물체는 새로고침의 영향을 받지 않음
-windows.profile.picture 사진 교체
-stats.assists 
+windows.profile.picture 프로필 사진 변경
+stats.assists 처치 지원
 stats.nukes 뉴크
-stats.melee 근접 킬
-stats.fistkills 격투 킬
-stats.thrownkills 투척 킬
+stats.melee 근접 처치
+stats.fistkills 격투 처치
+stats.thrownkills 투척 처치
 stats.headshots 헤드샷
-stats.wallbangs 관통 킬
+stats.wallbangs 관통 처치
 stats.sprays 스프레이 수
-windows.host.default.settings 기본 세팅을 허용하면 플레이어의 능력치와 최고점을 보관할 수 있다
-windows.host.default.commands *게임 호스트 명령어는 이 형식에서는 사용할 수 없습니다: /noclip /god /smite 등 
-windows.host.rewards KR 보상을 허용하면 서버 내에서 기본 세팅을 강제합니다 & 맵 기부금에서 KR을 벌 수 있게 합니다:
-windows.store.wheels.sub 새 스킨을 얻을 수 있는 기회인 스핀을 통해 당신의 운을 시험해보세요
-windows.store.currency * 달러 단위는 거래 플랫폼이나 사용 은행에 따라 당신의 지역 통화로 변환될 수 있습니다.
-windows.store.creator 당신의 최애 크리에이터를 위해 크리에이터 코드를 쓰는 것을 고려하세요
-windows.chall.customs 사용자 지정 게임에선 챌린지를 진행할 수 없습니다
-twitch.link 트위치 계정을 연동하겠습니까?
-twitch.unlink 트위치 계정의 연동을 해제시키겠습니까?
+windows.host.default.settings 기본 설정을 사용하면 플레이어 진행률과 최고 점수를 저장할 수 있습니다
+windows.host.default.commands /noclip, /god, /smite와 같은 호스트 명령어는 비활성화됩니다 
+windows.host.rewards KR 보상을 허용하면 서버 내에서 기본 설정을 강제합니다 & 맵 자본에서 KR을 벌 수 있게 합니다
+windows.store.wheels.sub 스핀을 돌려 운을 시험하고 새 스킨을 얻을 기회를 노려보세요!
+windows.store.currency * 미국 달러(USD)로 표시된 가격은 결제 제공업체나 은행에서 정한 환율에 따라 현지 통화로 환전될 수 있습니다.
+windows.store.creator 당신이 가장 좋아하는 크리에이터를 위해 크리에이터 코드를 쓰는 것을 고려하세요
+windows.chall.customs 사용자 지정 게임에서는 챌린지를 진행할 수 없습니다
+twitch.link Twitch 계정을 연동하겠습니까?
+twitch.unlink Twitch 계정의 연동을 해제하시겠습니까?
 windows.clan.leave 클랜을 탈퇴하시겠습니까?
-windows.clan.delete 클랜을 해체시키시겠습니까?
-windows.clan.kick {0}을 클랜에서 탈퇴시키겠습니까?
-windows.store.premium.purchase {0}일치의 프리미엄 서비스를 구매하시겠습니까?
+windows.clan.delete 클랜을 해체하시겠습니까?
+windows.clan.kick {0}을 클랜에서 추방하시겠습니까?
+windows.store.premium.purchase {0}일 치의 프리미엄 서비스를 구매하시겠습니까?
 windows.playerlist.ban {0}을 이 게임에서 밴하시겠습니까?
 windows.playerlist.flag {0}을 해커태그 하시겠습니까?
 windows.playerlist.unflag {0}의 해커태그를 취소하시겠습니까?
